@@ -1,0 +1,139 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #a1cef8;
+	background-image: url("../img/image 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+header{
+	background: #A1CEF8;
+	height: 50px;
+	display: flex;
+}
+footer{
+	height: 100px;
+	width: 100%;
+	background-color: #1A396B;
+	bottom: 0;
+	color: white;
+	
+
+}
+
+/*Classes e Objetos*/
+.header-container{
+	display: flex;
+
+}
+.logo{
+	height: 120px;
+	width: 360px;
+	margin-left: 200px;
+
+}
+.header-navbar ul li{
+	margin: 29px 10px;
+	list-style: none;
+	display: inline-flex;
+	margin-left: 300px;
+}
+.header-navbar ul li a{
+	font-size: 18px;
+	color: #1A396B;
+	font-weight: bold;
+
+}
+.flex-center{
+	display: flex;
+
+}
+.destaque{
+	color: #1A396B;
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 30rem;
+	margin-left: 55rem;
+}
+.container{
+	display: flex;
+	margin-bottom: 20rem;
+}
+
+.card1{
+	margin-left: 15rem;
+}
+
+.web{
+	color: #FF5551;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 7rem;
+
+}
+.web-design{
+	color: #1A396B;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 5rem;
+}
+
+.card2{
+	margin-left: 15rem;
+}
+.app{
+	color: #FF5551;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 4rem;
+
+}
+.intro{
+	color: #1A396B;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 4rem;
+}
+
+.card3{
+	margin-left: 15rem;
+}
+.ux{
+	color: #FF5551;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 4rem;
+
+}
+.inter{
+	color: #1A396B;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 4rem;
+}
+.rodape{
+	border-top: 1px solid #333;
+  	bottom: 0;
+  	left: 0;
+  	height: 100px;
+  	width: 100%;
+}
+.midia{
+	display: inline-flex;
+}
+.instagram{
+	margin-right: 0;
+	margin-left: 50rem;
+}
+.twitter{
+	margin-right: 0;
+	margin-left: 50rem;
+}
+.zap{
+	margin-right: 0;
+	margin-left: 50rem;
+}
